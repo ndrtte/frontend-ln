@@ -1,0 +1,52 @@
+.icono-grey {
+    color: grey;
+  }
+  .icono-golden{
+      color: #EABE3F;
+  }
+
+.nowrap{
+    white-space: nowrap;
+}
+  
+.hover-black:hover,
+.hover-black:hover .icono-grey,
+.hover-black:hover .text-muted {
+    color: black !important;
+}
+
+.general-border-style{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #e8e8e8;
+    border-radius: 5px;
+}
+
+.message-module-border{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #e8e8e8;
+}
+.list-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-item:hover {
+    background-color: #eeeeee;
+}
+
+.input-group .form-control,
+    .input-group .input-group-text {
+      border: none !important;
+      box-shadow: none !important;
+}
+
+.form-group:focus-within {
+    box-shadow: 0 0 0 0.15rem rgba(14, 118, 168, 0.8);
+    border-radius: 0.375rem;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;  
+}
